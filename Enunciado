@@ -1,0 +1,69 @@
+1. Reset inicial y modelo de caja
+1.	Aplica el selector universal * para:
+o	Eliminar todos los márgenes por defecto.
+o	Usar box-sizing: border-box en toda la página.
+
+2. Estilos generales del <body>
+Tu CSS deberá incluir:
+•	Fuente base: Arial, Helvetica o sans-serif.
+•	Altura de línea de 1.6 para mejorar la legibilidad.
+•	Fondo suave (por ejemplo: azure).
+•	Color de texto gris oscuro (#333).
+•	Espaciado general mediante padding alrededor del contenido.
+
+3. Estilo del encabezado <header>
+El encabezado ya existe en el HTML, debes aplicarle:
+•	Texto centrado.
+•	Fondo blanco.
+•	Bordes redondeados (10px).
+•	Borde de 2px en color oscuro.
+•	Espaciado suficiente para que el título y subtítulo se vean bien.
+
+4. Contenedor del formulario
+El HTML contiene un contenedor para el formulario con clase .contacto.
+Debes aplicar:
+•	Fondo blanco.
+•	Bordes redondeados.
+•	padding interno.
+•	Un diseño tipo “tarjeta” (como vimos en clase).
+
+5. Etiquetas destacadas con la clase .trozo
+•	Deben aparecer en azul y negrita.
+•	Sirven para resaltar ciertos campos del formulario.
+
+6. Campos del formulario
+Cada campo está dentro de un contenedor con la clase .campo.
+Tu CSS debe:
+•	Separar cada campo del siguiente mediante margin-bottom.
+•	Convertir los <span> en elementos de bloque (display: block), ponerlos en negrita y con un pequeño margen inferior.
+•	Hacer que los <input> y <textarea> ocupen el 100% del ancho disponible.
+•	Aplicar padding interno, borde personalizado y bordes redondeados.
+•	Aplicar una transición suave para el color del borde y la sombra (transition).
+
+7. Efectos interactivos (hover y focus)
+Obligatorio aplicar:
+:hover en inputs y textarea
+•	Borde más grueso (por ejemplo 3px) y color rojo.
+:focus en inputs y textarea
+•	Borde de color rojo.
+•	Eliminar el outline.
+•	Aplicar una sombra (box-shadow) de color naranja.
+
+8. Botones estilizados
+Los botones usan la clase .btn más un modificador:
+•	.btn-enviar
+•	.btn-borrar
+Estilo general de .btn:
+•	Botones grandes: mucho padding.
+•	Bordes redondeados.
+•	Cursor tipo “mano”.
+•	transition en el color de fondo y la transformación.
+•	Márgenes superior, inferior y derecho para separación.
+
+
+Estilo específico:
+•	.btn-enviar: fondo cadetblue y texto blanco.
+•	.btn-borrar: fondo rojo y texto blanco.
+Efecto hover para ambos:
+•	Cambiar el color de fondo a gris.
+•	Aplicar transform: scale(1.05) para efecto “zoom”.
