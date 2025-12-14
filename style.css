@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-body: #2f3034;
+    --pading-star: 20px;
+    --color-bio: #f1ece3;
+    --color-font: #f34224;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: var(--color-body);
+    color:var(--color-font);
+    padding: var(--pading-star);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: var(--color-bio);
+    border-radius: 10px;
+    border: 2px solid #333;
+    padding: var(--pading-star);
+}
+
+.contacto {
+    background-color: var(--color-bio);
+    border-radius: 10px;
+    text-align: center;
+    padding: var(--pading-star);
+}
+
+.form{
+    padding: var(--pading-star);
+    color: var(--color-font);
+    text-align:start;
+    font-weight: bold;
+}
+
+.trozo{
+    color: var(--color-font);
+    font-weight: bold;
+}
+
+.form .campo{
+    margin-bottom: 15px;
+}
+
+.form span{
+    display: block;
+    margin-bottom: 5px;
+    margin: 5px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 113, 136);
+    font-size: 1.2rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form input:hover,
+.form textarea:hover{
+    border: 3px solid var(--color-font);
+}
+
+.form input:focus,
+.form textarea:focus{
+    border-color: var(--color-font);
+    outline: none;
+    box-shadow: -2px -2px 5px orange;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: var(--pading-star);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 1s ease, transform 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.btn-enviar{
+    background-color: cadetblue;
+    color: white;
+}
+
+.btn-borrar{
+    background-color: var(--color-font);
+    color: white;
+}
+
+.btn-enviar:hover,
+.btn-borrar:hover{
+    background-color: var(--color-body);
+    transform: scale(1.05);
+}
